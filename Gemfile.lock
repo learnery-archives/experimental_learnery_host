@@ -1,6 +1,5 @@
-GIT
-  remote: https://github.com/learnery/experimental_learnery_engine.git
-  revision: b9d12adaf41b22a7ec978273c8e9d30fc25d9a1d
+PATH
+  remote: /Developer/Webmirror/learnery/tmp/learnery
   specs:
     learnery (0.0.1)
       rails (~> 4.0.0.rc2)
