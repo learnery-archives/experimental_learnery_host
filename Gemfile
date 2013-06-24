@@ -3,8 +3,12 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0.rc2'
 
-# gem 'learnery', git: "https://github.com/learnery/experimental_learnery_engine.git"
-gem 'learnery', path: "/Developer/Webmirror/learnery/tmp/learnery"
+if File.exist?("../learnery")
+  gem 'learnery', path: "../learnery"
+else
+  gem 'learnery', git: "https://github.com/learnery/experimental_learnery_engine.git"
+end
+
 gem 'redcarpet'
 
 # Use sqlite3 as the database for Active Record

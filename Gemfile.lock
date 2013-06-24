@@ -1,5 +1,5 @@
 PATH
-  remote: /Developer/Webmirror/learnery/tmp/learnery
+  remote: ../learnery
   specs:
     learnery (0.0.1)
       rails (~> 4.0.0.rc2)
